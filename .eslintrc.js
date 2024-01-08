@@ -2,10 +2,11 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
     },
     extends: [
         'plugin:react/recommended',
-        // 'plugin:i18next/recommended',
+        'plugin:i18next/recommended',
         'airbnb',
     ],
     parser: '@typescript-eslint/parser',
