@@ -1,14 +1,17 @@
 import React, { FC } from 'react';
 import 'app/styles/index.scss';
-import { Theme } from 'app/providers/ThemeProvider';
+import { Theme, ThemeProvider } from 'app/providers/ThemeProvider';
 
 interface Props {
     children?: React.ReactNode;
     theme: Theme;
 }
+
 const ThemeDecorator: FC<Props> = ({ children, theme }) => (
-    <div className={`app ${theme}`}>
-        {children}
-    </div>
+    <ThemeProvider initialTheme={theme}>
+        <div className={`app ${theme}`}>
+            {children}
+        </div>
+    </ThemeProvider>
 );
 export default ThemeDecorator;
