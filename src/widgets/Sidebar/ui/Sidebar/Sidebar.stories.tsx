@@ -8,9 +8,7 @@ import { Sidebar } from './Sidebar';
 const meta = {
     title: 'widget/Sidebar',
     component: Sidebar,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {},
 } satisfies Meta<typeof Sidebar>;
 

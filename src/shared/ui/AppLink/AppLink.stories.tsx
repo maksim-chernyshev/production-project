@@ -8,9 +8,7 @@ import { AppLink, AppLinkTheme } from './AppLink';
 const meta = {
     title: 'shared/AppLink',
     component: AppLink,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {
         theme: AppLinkTheme,
     },

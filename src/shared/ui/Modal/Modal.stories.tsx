@@ -8,9 +8,7 @@ import { Modal } from 'shared/ui/Modal/Modal';
 const meta = {
     title: 'shared/Modal',
     component: Modal,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
 } satisfies Meta<typeof Modal>;
 
 export default meta;

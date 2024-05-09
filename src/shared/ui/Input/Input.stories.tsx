@@ -6,9 +6,7 @@ import { Input } from './Input';
 const meta = {
     title: 'shared/Input',
     component: Input,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {},
 } satisfies Meta<typeof Input>;
 

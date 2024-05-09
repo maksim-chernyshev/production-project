@@ -8,9 +8,7 @@ import { Button, ButtonSize, ButtonTheme } from './Button';
 const meta = {
     title: 'shared/Button',
     component: Button,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {
         theme: ButtonTheme,
     },
@@ -113,5 +111,13 @@ export const SquareSizeXl: Story = {
         theme: ButtonTheme.BACKGROUND_INVERTED,
         size: ButtonSize.XL,
         square: true,
+    },
+};
+
+export const Disabled: Story = {
+    args: {
+        children: 'Text',
+        theme: ButtonTheme.OUTLINE,
+        disabled: true,
     },
 };

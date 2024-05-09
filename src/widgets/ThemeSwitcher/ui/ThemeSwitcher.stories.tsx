@@ -8,9 +8,7 @@ import { ThemeSwitcher } from './ThemeSwitcher';
 const meta = {
     title: 'widget/ThemeSwitcher',
     component: ThemeSwitcher,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {},
 } satisfies Meta<typeof ThemeSwitcher>;
 

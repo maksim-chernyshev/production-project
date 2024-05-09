@@ -8,9 +8,7 @@ import { Loader } from './Loader';
 const meta = {
     title: 'shared/Loader',
     component: Loader,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {},
 } satisfies Meta<typeof Loader>;
 

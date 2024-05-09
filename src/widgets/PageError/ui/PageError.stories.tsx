@@ -8,9 +8,7 @@ import { PageError } from './PageError';
 const meta = {
     title: 'widget/PageError',
     component: PageError,
-    parameters: {
-        layout: 'centered',
-    },
+    parameters: {},
     argTypes: {},
 } satisfies Meta<typeof PageError>;
 
