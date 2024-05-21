@@ -16,5 +16,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Максим",
+    "lastname": "Чернышев",
+    "age": 35,
+    "currency": "AMD",
+    "country": "Armenia",
+    "city": "Yerevan",
+    "username": "admin",
+    "avatar": "https://lastfm.freetls.fastly.net/i/u/avatar170s/2899912abf206b95a97b2e2696defb5e.png"
+  }
 }
