@@ -1,17 +1,17 @@
-import React, { FC } from 'react';
+import React from 'react';
 import 'app/styles/index.scss';
 import { StateSchema, StoreProvider } from 'app/providers/StoreProvider';
-import { DeepPartial, ReducersMapObject } from '@reduxjs/toolkit';
 import { loginReducer } from 'features/AuthByUsername/model/slice/loginSlice';
 import { profileReducer } from 'entities/Profile';
+import { ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 
 interface Props {
     children?: React.ReactNode;
     state: DeepPartial<StateSchema>
-    asyncReducers?: DeepPartial<StateSchema>
+    asyncReducers?: ReducersList
 }
 
-const defaultAsyncReducers: DeepPartial<ReducersMapObject<StateSchema>> = {
+const defaultAsyncReducers: ReducersList = {
     loginForm: loginReducer,
     profile: profileReducer,
 };
