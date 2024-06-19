@@ -16,5 +16,10 @@
   "Форма авторизации": "Authorization form",
   "Вы ввели неправильный логин или пароль": "Incorrect username or password",
   "Выйти": "Log out",
-  "Профиль": "Profile"
+  "Профиль": "Profile",
+  "Имя и фамилия обязательны": "First and last names are required",
+  "Некорректный возраст": "Incorrect age",
+  "Город обязателен": "City is required",
+  "Внутренняя ошибка сервера": "Server error",
+  "Данные не указаны": "There is no data"
 }
