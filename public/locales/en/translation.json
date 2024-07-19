@@ -21,5 +21,6 @@
   "Некорректный возраст": "Incorrect age",
   "Город обязателен": "City is required",
   "Внутренняя ошибка сервера": "Server error",
-  "Данные не указаны": "There is no data"
+  "Данные не указаны": "There is no data",
+  "Статьи": "Articles"
 }
