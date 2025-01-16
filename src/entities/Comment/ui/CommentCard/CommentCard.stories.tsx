@@ -4,15 +4,37 @@ import 'app/styles/index.scss';
 import { CommentCard } from './CommentCard';
 
 const meta = {
-    title: 'shared/CommentCard',
+    title: 'entities/Comment/CommentCard',
     component: CommentCard,
-    parameters: {},
-    argTypes: {},
 } satisfies Meta<typeof CommentCard>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-    args: {},
+    args: {
+        comment: {
+            id: '1',
+            text: 'hello man',
+            user: {
+                id: '1',
+                username: 'Vasya',
+            },
+        },
+
+    },
+};
+
+export const Loading: Story = {
+    args: {
+        comment: {
+            id: '1',
+            text: 'hello man',
+            user: {
+                id: '1',
+                username: 'Vasya',
+            },
+        },
+        isLoading: true,
+    },
 };

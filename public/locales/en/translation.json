@@ -23,5 +23,7 @@
   "Внутренняя ошибка сервера": "Server error",
   "Данные не указаны": "There is no data",
   "Статьи": "Articles",
-  "Комментарии отсутствуют": "There are no comments yet"
+  "Комментарии отсутствуют": "There are no comments yet",
+  "Введите текст комментария": "Enter comment text",
+  "Отправить": "Send"
 }

@@ -34,7 +34,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -115,6 +117,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "1Prp81p"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "456",
+      "id": "WFGmVHD"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "user comment",
+      "id": "6o3qllw"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "привет всем",
+      "id": "hJEGn6C"
     }
   ],
   "users": [
@@ -130,17 +156,31 @@
       "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://static.wikia.nocookie.net/p__/images/6/6b/Ron_Swanson.jpg/revision/latest/thumbnail/width/360/height/360?cb=20200618021337&path-prefix=protagonist"
+      "avatar": "https://avatarfiles.alphacoders.com/311/311414.jpg"
     }
   ],
-  "profile": {
-    "city": "Ереван",
-    "first": "Максим",
-    "lastname": "Чернышев",
-    "age": 12,
-    "username": "brbrbrb",
-    "avatar": "https://lastfm.freetls.fastly.net/i/u/avatar170s/2899912abf206b95a97b2e2696defb5e.png",
-    "country": "Belarus",
-    "currency": "RUB"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "city": "Ереван",
+      "first": "Максим",
+      "lastname": "Чернышев",
+      "age": 12,
+      "username": "broforce",
+      "avatar": "https://lastfm.freetls.fastly.net/i/u/avatar170s/2899912abf206b95a97b2e2696defb5e.png",
+      "country": "Armenia",
+      "currency": "AMD"
+    },
+    {
+      "id": "2",
+      "city": "Россия",
+      "first": "Вася",
+      "lastname": "Нормис",
+      "age": 24,
+      "username": "simple man",
+      "avatar": "https://avatarfiles.alphacoders.com/311/311414.jpg",
+      "country": "Russia",
+      "currency": "RUB"
+    }
+  ]
 }
