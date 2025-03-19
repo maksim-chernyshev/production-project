@@ -6,7 +6,7 @@ import StoreDecorator from 'shared/config/storybook/StoreDecorator/StoreDecorato
 import { ArticleDetails } from './ArticleDetails';
 
 const meta = {
-    title: 'entities/ArticleDetails',
+    title: 'entities/Article/ArticleDetails',
     component: ArticleDetails,
     parameters: {},
     argTypes: {},
@@ -23,6 +23,10 @@ const article: Article = {
     img: 'https://teknotower.com/wp-content/uploads/2020/11/js.png',
     views: 1022,
     createdAt: '26.02.2022',
+    user: {
+        id: '1',
+        username: 'admin',
+    },
     type: [ArticleType.IT],
     blocks: [
         {
