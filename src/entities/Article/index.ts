@@ -11,4 +11,5 @@ export {
     ArticleDetailsSchema,
 } from './model/types/articleDetailsSchema';
 
-export { ArticleList } from '../Article/ui/ArticleList/ArticleList';
+export { ArticleList } from './ui/ArticleList/ArticleList';
+export { ArticleViewSelector } from './ui/ArticleViewSelector/ArticleViewSelector';
