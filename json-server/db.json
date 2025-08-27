@@ -150,10 +150,10 @@
     {
       "id": "4",
       "title": "Java news",
-      "subtitle": "Что нового в Java?",
+      "subtitle": "Что нового в Java? NEW!",
       "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
-      "views": 122,
-      "createdAt": "05.07.2021",
+      "views": 122234,
+      "createdAt": "05.07.2025",
       "userId": "1",
       "type": [
         "IT"
@@ -174,10 +174,10 @@
     {
       "id": "5",
       "title": "Golang news",
-      "subtitle": "Что нового в Golang",
+      "subtitle": "Что нового в Golang 2",
       "img": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
-      "views": 873,
-      "createdAt": "05.01.2025",
+      "views": 87223,
+      "createdAt": "05.01.2019",
       "userId": "1",
       "type": [
         "IT"
@@ -197,11 +197,11 @@
     },
     {
       "id": "6",
-      "title": "Java news",
+      "title": "Java news Hooray",
       "subtitle": "Что нового в Java?",
       "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
-      "views": 122,
-      "createdAt": "05.07.2021",
+      "views": 18,
+      "createdAt": "05.07.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -222,9 +222,9 @@
     {
       "id": "7",
       "title": "Golang news",
-      "subtitle": "Что нового в Golang",
+      "subtitle": "Golang",
       "img": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
-      "views": 873,
+      "views": 84567,
       "createdAt": "05.01.2025",
       "userId": "1",
       "type": [
@@ -245,11 +245,11 @@
     },
     {
       "id": "8",
-      "title": "Java news",
+      "title": "news",
       "subtitle": "Что нового в Java?",
       "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
-      "views": 122,
-      "createdAt": "05.07.2021",
+      "views": 12278,
+      "createdAt": "05.07.2018",
       "userId": "1",
       "type": [
         "IT"
@@ -270,10 +270,10 @@
     {
       "id": "9",
       "title": "Golang news",
-      "subtitle": "Что нового в Golang",
+      "subtitle": "Что нового",
       "img": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
-      "views": 873,
-      "createdAt": "05.01.2025",
+      "views": 87311,
+      "createdAt": "05.01.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -293,10 +293,10 @@
     },
     {
       "id": "10",
-      "title": "Java news",
+      "title": "Java news 3",
       "subtitle": "Что нового в Java?",
       "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
-      "views": 122,
+      "views": 12278,
       "createdAt": "05.07.2021",
       "userId": "1",
       "type": [
@@ -589,6 +589,78 @@
       "userId": "1",
       "type": [
         "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Экономическая статья - ОБВАЛ!",
+      "subtitle": "Все пропало",
+      "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
+      "views": 567,
+      "createdAt": "05.07.2021",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Научная статья",
+      "subtitle": "тут Наука",
+      "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
+      "views": 34,
+      "createdAt": "05.07.2009",
+      "userId": "1",
+      "type": [
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Снова экономика",
+      "subtitle": "Сколько можно",
+      "img": "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945017.png?f=webp&w=512",
+      "views": 122,
+      "createdAt": "05.07.2021",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
       ],
       "blocks": [
         {
