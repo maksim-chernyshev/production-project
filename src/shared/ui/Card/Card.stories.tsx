@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Text } from 'shared/ui/Text/Text';
+import { Text } from '../Text/Text';
 import 'app/styles/index.scss';
 import { Card } from './Card';
 
