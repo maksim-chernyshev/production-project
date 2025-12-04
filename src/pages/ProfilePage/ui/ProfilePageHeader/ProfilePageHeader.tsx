@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux';
 import { useCallback } from 'react';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { getUserAuthData } from 'entities/User';
-import cls from './ProfilePageHeader.module.scss';
+import { HStack } from 'shared/ui/Stack/HStack/HStack';
 
 interface ProfilePageHeaderProps {
     className?: string;
@@ -37,24 +37,22 @@ export const ProfilePageHeader = ({ className }: ProfilePageHeaderProps) => {
     }, [dispatch]);
 
     return (
-        <div className={classNames(cls.ProfilePageHeader, {}, [className])}>
+        <HStack justify="between" max className={classNames('', {}, [className])}>
             <Text title={t('Профиль')} />
 
             {canEdit && (
-                <div className={cls.btnsWrapper}>
+                <div>
                     { readonly
                         ? (
                             <Button
-                                className={cls.editButton}
                                 theme={ButtonTheme.OUTLINE}
                                 onClick={onEdit}
                             >
                                 {t('Редактировать')}
                             </Button>
                         ) : (
-                            <>
+                            <HStack gap="8">
                                 <Button
-                                    className={cls.editButton}
                                     theme={ButtonTheme.OUTLINE_RED}
                                     onClick={onCancelEdit}
                                 >
@@ -62,17 +60,15 @@ export const ProfilePageHeader = ({ className }: ProfilePageHeaderProps) => {
                                 </Button>
 
                                 <Button
-                                    className={cls.saveButton}
                                     theme={ButtonTheme.OUTLINE}
                                     onClick={onSave}
                                 >
                                     {t('Сохранить')}
                                 </Button>
-                            </>
+                            </HStack>
                         )}
                 </div>
             )}
-
-        </div>
+        </HStack>
     );
 };
