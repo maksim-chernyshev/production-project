@@ -4,7 +4,7 @@ import 'app/styles/index.scss';
 import ArticleEditPage from './ArticleEditPage';
 
 const meta = {
-    title: 'shared/ArticleEditPage',
+    title: 'pages/ArticleEditPage/ArticleEditPage',
     component: ArticleEditPage,
     parameters: {},
     argTypes: {},

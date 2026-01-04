@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import 'app/styles/index.scss';
-import { ArticleDetailsPageHeader } from './ArticleDetailsPageHeader';
+import { EditableProfilePageHeader } from './EditableProfilePageHeader';
 
 const meta = {
-    title: 'pages/ArticleDetailsPage/ArticleDetailsPageHeader',
-    component: ArticleDetailsPageHeader,
+    title: 'features/editableProfileCard/EditableProfilePageHeader',
+    component: EditableProfilePageHeader,
     parameters: {},
     argTypes: {},
-} satisfies Meta<typeof ArticleDetailsPageHeader>;
+} satisfies Meta<typeof EditableProfilePageHeader>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

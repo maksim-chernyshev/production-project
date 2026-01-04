@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import 'app/styles/index.scss';
-import { ArticleDetailsPageHeader } from './ArticleDetailsPageHeader';
+import { ArticleInfiniteList } from './ArticleInfiniteList';
 
 const meta = {
-    title: 'pages/ArticleDetailsPage/ArticleDetailsPageHeader',
-    component: ArticleDetailsPageHeader,
+    title: 'pages/ArticlesPage/ArticleInfiniteList',
+    component: ArticleInfiniteList,
     parameters: {},
     argTypes: {},
-} satisfies Meta<typeof ArticleDetailsPageHeader>;
+} satisfies Meta<typeof ArticleInfiniteList>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

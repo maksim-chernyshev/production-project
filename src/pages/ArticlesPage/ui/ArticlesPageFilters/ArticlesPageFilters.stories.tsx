@@ -4,7 +4,7 @@ import 'app/styles/index.scss';
 import { ArticlesPageFilters } from './ArticlesPageFilters';
 
 const meta = {
-    title: 'pages/Article/ArticlesPageFilters',
+    title: 'pages/ArticlesPage/ArticlesPageFilters',
     component: ArticlesPageFilters,
     parameters: {},
     argTypes: {},
