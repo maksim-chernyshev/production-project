@@ -4,3 +4,4 @@
 /storybook-static
 .loki/report.*
 /dist
+/reports
