@@ -1,6 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import {
-    memo, Suspense, useCallback,
+    memo,
+    Suspense,
+    useCallback,
 } from 'react';
 import { AppRouteProps, routeConfig } from 'shared/config/routeConfig/routeConfig';
 import { PageLoader } from 'widgets/PageLoader';
@@ -18,7 +20,17 @@ export const AppRouter = memo(() => {
             <Route
                 key={route.path}
                 path={route.path}
-                element={route.authOnly ? <RequireAuth>{element}</RequireAuth> : element}
+                element={
+                    route.authOnly
+                        ? (
+                            <RequireAuth
+                                roles={route.roles}
+                            >
+                                {element}
+                            </RequireAuth>
+                        )
+                        : element
+                }
             />
         );
     }, []);
