@@ -5,7 +5,8 @@ import withMock from 'storybook-addon-mock';
 import { ArticleRecommendationsList } from './ArticleRecommendationsList';
 import StoreDecorator from '../../../../shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Article, ArticleType } from '../../../../entities/Article';
-import { ArticleBlockType } from '../../../../entities/Article/model/types/article';
+
+import { ArticleBlockType } from '../../../../entities/Article/model/consts/consts';
 
 const meta = {
     title: 'features/ArticleRecommendationsList',

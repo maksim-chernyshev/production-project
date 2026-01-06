@@ -3,7 +3,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import 'app/styles/index.scss';
 import { action } from '@storybook/addon-actions';
 import { ArticleSortSelector } from './ArticleSortSelector';
-import { ArticleSortField } from '../../model/types/article';
+
+import { ArticleSortField } from '../../model/consts/consts';
 
 const meta = {
     title: 'entities/Article/ArticleSortSelector',
