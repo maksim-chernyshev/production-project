@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import 'app/styles/index.scss';
 import { ArticleDetailsPageHeader } from './ArticleDetailsPageHeader';
+import StoreDecorator from '../../../../shared/config/storybook/StoreDecorator/StoreDecorator';
 
 const meta = {
     title: 'pages/ArticleDetailsPage/ArticleDetailsPageHeader',
@@ -15,4 +16,11 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
     args: {},
+    decorators: [
+        (Story) => (
+            <StoreDecorator state={{}}>
+                <Story />
+            </StoreDecorator>
+        ),
+    ],
 };

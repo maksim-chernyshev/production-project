@@ -21,7 +21,7 @@ import { getProfileReadonly } from '../../model/selectors/getProfileReadonly/get
 import { EditableProfilePageHeader } from '../EditableProfilePageHeader/EditableProfilePageHeader';
 
 interface EditableProfileCardProps {
-    id: string;
+    id?: string;
     className?: string;
 }
 

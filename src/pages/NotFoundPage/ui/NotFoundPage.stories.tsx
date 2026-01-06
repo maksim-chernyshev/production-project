@@ -4,12 +4,20 @@ import 'app/styles/index.scss';
 import ThemeDecorator from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import NotFoundPage from './NotFoundPage';
+import StoreDecorator from '../../../shared/config/storybook/StoreDecorator/StoreDecorator';
 
 const meta = {
     title: 'pages/NotFoundPage',
     component: NotFoundPage,
     parameters: {},
     argTypes: {},
+    decorators: [
+        (Story) => (
+            <StoreDecorator state={{}}>
+                <Story />
+            </StoreDecorator>
+        ),
+    ],
 } satisfies Meta<typeof NotFoundPage>;
 
 export default meta;

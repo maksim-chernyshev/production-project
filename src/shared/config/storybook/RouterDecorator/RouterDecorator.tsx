@@ -1,11 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, PropsWithChildren } from 'react';
 import 'app/styles/index.scss';
 import { BrowserRouter } from 'react-router-dom';
 
-interface Props {
-    children?: React.ReactNode;
-}
-const RouterDecorator: FC<Props> = ({ children }) => (
+const RouterDecorator: FC<PropsWithChildren> = ({ children }) => (
     <BrowserRouter>{children}</BrowserRouter>
 );
+
 export default RouterDecorator;

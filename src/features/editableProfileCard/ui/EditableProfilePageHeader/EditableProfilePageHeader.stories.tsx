@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import 'app/styles/index.scss';
 import { EditableProfilePageHeader } from './EditableProfilePageHeader';
+import StoreDecorator from '../../../../shared/config/storybook/StoreDecorator/StoreDecorator';
 
 const meta = {
     title: 'features/editableProfileCard/EditableProfilePageHeader',
@@ -15,4 +16,11 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
     args: {},
+    decorators: [
+        (Story) => (
+            <StoreDecorator state={{ profile: { data: {} } }}>
+                <Story />
+            </StoreDecorator>
+        ),
+    ],
 };

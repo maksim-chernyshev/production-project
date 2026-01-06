@@ -4,12 +4,20 @@ import 'app/styles/index.scss';
 import ThemeDecorator from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import MainPage from './MainPage';
+import StoreDecorator from '../../../shared/config/storybook/StoreDecorator/StoreDecorator';
 
 const meta = {
     title: 'pages/MainPage',
     component: MainPage,
     parameters: {},
     argTypes: {},
+    decorators: [
+        (Story) => (
+            <StoreDecorator state={{}}>
+                <Story />
+            </StoreDecorator>
+        ),
+    ],
 } satisfies Meta<typeof MainPage>;
 
 export default meta;
