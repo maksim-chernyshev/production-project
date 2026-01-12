@@ -1,29 +1,30 @@
 {
-  "posts": [
+  "notifications":  [
     {
       "id": "1",
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Уведомление 1",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
     },
     {
       "id": "2",
-      "title": "json-server 2",
-      "author": "typicode"
+      "title": "Уведомление 2",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
     },
     {
       "id": "3",
-      "title": "json-server 3",
-      "author": "typicode"
+      "title": "Уведомление 3",
+      "description": "Произошло какое-то событие",
+      "userId": "1",
+      "href": "http://localhost:3000/admin"
     },
     {
       "id": "4",
-      "title": "json-server 4",
-      "author": "typicode"
-    },
-    {
-      "id": "5",
-      "title": "json-server 5",
-      "author": "typicode"
+      "title": "Уведомление 4",
+      "description": "Произошло какое-то событие",
+      "userId": "1"
     }
   ],
   "articles": [
@@ -789,13 +790,13 @@
     {
       "id": "1",
       "city": "Ереван",
-      "first": "Макс",
-      "lastname": "Чернь",
+      "first": "Максим",
+      "lastname": "Чернышев",
       "age": 12,
       "username": "broforce",
       "avatar": "https://img.nbc.com/files/images/2013/11/12/dwight-500x500.jpg",
       "country": "Belarus",
-      "currency": "USD"
+      "currency": "EUR"
     },
     {
       "id": "2",
