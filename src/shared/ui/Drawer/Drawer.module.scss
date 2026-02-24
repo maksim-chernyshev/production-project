@@ -1,54 +1,25 @@
 .Drawer {
     position: fixed;
     inset: 0;
-    z-index: -1;
+    z-index: 100;
     display: flex;
     align-items: end;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.content {
-    overflow-y: auto;
-    overflow-x: hidden;
-    position: relative;
-    bottom: 0;
-    z-index: 1000;
-    width: 100%;
-    min-height: 100px;
-    height: 70%;
-    padding: 20px;
-    background-color: var(--bg-color);
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    transition: 0.3s transform;
-    transform: translateY(100%);
-}
-
-.content::before {
-    content: "";
-    position: relative;
-    bottom: 40px;
-    display: block;
-    width: 100%;
-    height: 10px;
-    margin: auto;
-    border-radius: 12px;
-    background-color: var(--bg-color);
 }
 
 .opened {
     z-index: var(--modal-z-index);
     opacity: 1;
     pointer-events: auto;
-
-    .content {
-        transform: translateY(0);
-    }
 }
 
-.isClosing {
-    .content {
-        transform: translateY(100%);
-    }
+.sheet {
+    z-index: var(--modal-z-index);
+    position: fixed;
+    left: 2vw;
+    height: calc(100vh + 100px);
+    width: 96vw;
+    border-radius: 12px 12px 0;
+    background-color: var(--bg-color);
+    touch-action: none;
+    padding: 15px;
 }
