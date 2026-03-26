@@ -6,7 +6,7 @@ import {
 } from '@/app/providers/ThemeProvider/lib/ThemeContext';
 
 export interface UseThemeResult {
-    toggleTheme: () => void;
+    toggleTheme: VoidFunction;
     theme: Theme;
 }
 

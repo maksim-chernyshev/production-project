@@ -15,7 +15,7 @@ import cls from './Page.module.scss';
 interface PageProps {
     className?: string;
     children: ReactNode;
-    onScrollEnd?: () => void
+    onScrollEnd?: VoidFunction;
 }
 
 export const PAGE_ID = 'PAGE_ID';
