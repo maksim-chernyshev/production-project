@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import 'app/styles/index.scss';
+import '@/app/styles/index.scss';
 import withMock from 'storybook-addon-mock';
 import { ArticleRecommendationsList } from './ArticleRecommendationsList';
 import StoreDecorator from '../../../../shared/config/storybook/StoreDecorator/StoreDecorator';

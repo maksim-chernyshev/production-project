@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import 'app/styles/index.scss';
+import '@/app/styles/index.scss';
 import { Dropdown } from './Dropdown';
 import { Button } from '../../../Button/Button';
 

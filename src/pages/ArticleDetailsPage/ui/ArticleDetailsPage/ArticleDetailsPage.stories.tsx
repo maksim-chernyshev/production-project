@@ -1,7 +1,7 @@
-import { Article, ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
 import type { Meta, StoryObj } from '@storybook/react';
-import 'app/styles/index.scss';
-import StoreDecorator from 'shared/config/storybook/StoreDecorator/StoreDecorator';
+import { Article, ArticleBlockType, ArticleType } from '@/entities/Article/model/types/article';
+import '@/app/styles/index.scss';
+import StoreDecorator from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 import ArticleDetailsPage from './ArticleDetailsPage';
 
 const meta = {

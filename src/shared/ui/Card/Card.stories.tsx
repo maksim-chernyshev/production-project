@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Text } from '../Text/Text';
-import 'app/styles/index.scss';
+import '@/app/styles/index.scss';
 import { Card } from './Card';
 
 const meta = {

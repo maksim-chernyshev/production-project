@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import 'app/styles/index.scss';
+import '@/app/styles/index.scss';
 import { ArticleList } from './ArticleList';
 import { Article } from '../../model/types/article';
 import { ArticleView } from '../../model/consts/consts';
