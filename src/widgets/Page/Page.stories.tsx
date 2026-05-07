@@ -4,7 +4,7 @@ import '@/app/styles/index.scss';
 import { Page } from './Page';
 
 const meta = {
-    title: 'shared/Page',
+    title: 'widgets/Page',
     component: Page,
     parameters: {},
     argTypes: {},

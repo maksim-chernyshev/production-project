@@ -4,7 +4,7 @@ import '@/app/styles/index.scss';
 import { NotificationItem } from './NotificationItem';
 
 const meta = {
-    title: 'shared/NotificationItem',
+    title: 'entities/Notification/NotificationItem',
     component: NotificationItem,
     parameters: {},
     argTypes: {},

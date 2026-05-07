@@ -22,7 +22,8 @@ interface RatingCardProps {
 
 export const RatingCard = memo((props: RatingCardProps) => {
     const {
-        className, title,
+        className,
+        title,
         feedbackTitle,
         hasFeedback,
         rate = 0,

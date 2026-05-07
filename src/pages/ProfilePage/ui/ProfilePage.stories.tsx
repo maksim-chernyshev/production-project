@@ -6,7 +6,7 @@ import { Theme } from '@/app/providers/ThemeProvider';
 import StoreDecorator from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Currency } from '@/entities/Currency';
 import { Country } from '@/entities/Country';
-import avatar from '@/shared/assets/tests/avatar.jpg;
+import avatar from '@/shared/assets/tests/avatar.jpg';
 import ProfilePage from './ProfilePage';
 
 const meta = {

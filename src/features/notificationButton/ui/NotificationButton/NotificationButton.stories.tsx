@@ -4,7 +4,7 @@ import '@/app/styles/index.scss';
 import { NotificationButton } from './NotificationButton';
 
 const meta = {
-    title: 'shared/NotificationButton',
+    title: 'features/NotificationButton',
     component: NotificationButton,
     parameters: {},
     argTypes: {},

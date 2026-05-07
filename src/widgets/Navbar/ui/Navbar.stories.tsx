@@ -7,7 +7,7 @@ import StoreDecorator from '@/shared/config/storybook/StoreDecorator/StoreDecora
 import { Navbar } from './Navbar';
 
 const meta = {
-    title: 'widget/Navbar',
+    title: 'widgets/Navbar',
     component: Navbar,
     parameters: {},
     argTypes: {},

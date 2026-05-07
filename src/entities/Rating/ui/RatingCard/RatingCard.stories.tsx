@@ -4,7 +4,7 @@ import 'app/styles/index.scss';
 import { RatingCard } from './RatingCard';
 
 const meta = {
-    title: 'shared/RatingCard',
+    title: 'entities/Rating/RatingCard',
     component: RatingCard,
     parameters: {},
     argTypes: {},

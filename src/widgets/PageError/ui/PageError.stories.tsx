@@ -6,7 +6,7 @@ import { Theme } from '@/app/providers/ThemeProvider';
 import { PageError } from './PageError';
 
 const meta = {
-    title: 'widget/PageError',
+    title: 'widgets/PageError',
     component: PageError,
     parameters: {},
     argTypes: {},
