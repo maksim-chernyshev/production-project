@@ -14,5 +14,12 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-    args: {},
+    args: {
+        item: {
+            id: '1',
+            title: 'Уведомление',
+            description: 'О чем-то',
+            userId: '1',
+        },
+    },
 };

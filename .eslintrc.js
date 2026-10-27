@@ -21,7 +21,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
-        'maksim-plugin',
+        'test-path-checker-plugin',
     ],
     rules: {
         indent: [2, 4],
@@ -66,7 +66,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
-        'maksim-plugin/path-checker': 'error',
+        'test-path-checker-plugin/path-checker': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
