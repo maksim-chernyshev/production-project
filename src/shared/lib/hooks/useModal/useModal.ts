@@ -45,7 +45,9 @@ export function useModal({
         }
 
         return () => {
-            clearTimeout(timerRef.current);
+            if (timerRef.current !== undefined) {
+                window.clearTimeout(timerRef.current);
+            }
             window.removeEventListener('keydown', onKeyDown);
         };
     }, [isOpen, onKeyDown]);

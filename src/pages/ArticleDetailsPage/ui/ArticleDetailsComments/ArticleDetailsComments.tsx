@@ -7,7 +7,6 @@ import { AddCommentForm } from '@/features/addCommentForm';
 import { CommentList } from '@/entities/Comment';
 import { Text, TextSize } from '@/shared/ui/Text/Text';
 import { useInitialEffect } from '@/shared/lib/hooks/useInitialEffect/useInitialEffect';
-import { Loading } from '@/entities/Comment/ui/CommentCard/CommentCard.stories';
 import { Loader } from '@/shared/ui/Loader/Loader';
 import { getArticleComments } from '../../model/slices/articleDetailsCommentsSlice';
 import { getArticleCommentsIsLoading } from '../../model/selectors/comments';
